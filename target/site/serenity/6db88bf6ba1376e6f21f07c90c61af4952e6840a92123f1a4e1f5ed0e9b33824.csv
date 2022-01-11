@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Student CURD test with steps","This will create a new student","ERROR","2022-01-09T11:39:03.026Z[Europe/London]","0.0","5.48"
+"Student CURD test with steps","Verify if the student was added to the application","ERROR","2022-01-09T11:39:08.803Z[Europe/London]","0.0","4.16"
+"Student CURD test with steps","Update the user information and verify the updated information","ERROR","2022-01-09T11:39:12.969Z[Europe/London]","0.0","4.15"
+"Student CURD test with steps","Delete the student and verify if the student is deleted!","ERROR","2022-01-09T11:39:17.126Z[Europe/London]","0.0","4.1"

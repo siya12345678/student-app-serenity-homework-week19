@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.studentapp.studentinfo.TagsTest" time="12.194" tests="3" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2020.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Admin\idea project\serenity-homework-week19"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Admin\idea project\serenity-homework-week19"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Vrajesh\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd; C:\Program Files\Apache\apache-maven-3.6.1\bin;C:\Program Files\Apache\apache-maven-3.6.1;C:\Program Files\Apache\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\ProgramData\chocolatey\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Users\Vrajesh\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\Vrajesh\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Vrajesh"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Vrajesh"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.3 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="invalidMethod" classname="com.studentapp.studentinfo.TagsTest" time="3.965">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.TagsTest.invalidMethod(TagsTest.java:20)
+</error>
+    <system-err><![CDATA[45578 [main] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Delete the student and verify if the student is deleted!
+---------------------------------------------------------------------
+45578 [main] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP DELETE
+45578 [main] ERROR net.serenitybdd.core.Serenity - Some exception during recording fields
+45859 [pool-1-thread-3] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Update the user information and verify the updated information to file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\46c94f63cf63717d7751c2c004c4350bf0af57d92ea1e25a560ee8105fbb97b3.json (using temp file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\46c94f63cf63717d7751c2c004c4350bf0af57d92ea1e25a560ee8105fbb97b3.json00a671ba-3438-4d13-bc89-5b34266cf493)
+45860 [pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for This will create a new student to file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\1709c273eb40f6633acc4318bfa3c6e3d5d89499d6576169f58894f6c51b6ec7.json (using temp file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\1709c273eb40f6633acc4318bfa3c6e3d5d89499d6576169f58894f6c51b6ec7.jsone88279ac-9171-4ac4-8965-eb7c47b3f2aa)
+45860 [pool-1-thread-4] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Delete the student and verify if the student is deleted! to file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\9b943b90f3ed32faae459b44434e9e89326d5286ee9c5097a0d627dc40c3624f.json (using temp file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\9b943b90f3ed32faae459b44434e9e89326d5286ee9c5097a0d627dc40c3624f.json6f584759-c751-48e0-a438-c580e3811314)
+45860 [pool-1-thread-2] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Verify if the student was added to the application to file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\40e5db3cdc2f4e029c37b0bb5704dd79a7a9264604d84f6f58e2b63644be5c98.json (using temp file C:\Users\Admin\idea project\serenity-homework-week19\target\site\serenity\40e5db3cdc2f4e029c37b0bb5704dd79a7a9264604d84f6f58e2b63644be5c98.json8195d451-6e35-451e-86bc-e2e253f30dcd)
+46243 [pool-2-thread-2] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Student CURD test with steps:test002 in 40e5db3cdc2f4e029c37b0bb5704dd79a7a9264604d84f6f58e2b63644be5c98.html in directory target\site\serenity  
+46243 [pool-2-thread-4] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Student CURD test with steps:test004 in 9b943b90f3ed32faae459b44434e9e89326d5286ee9c5097a0d627dc40c3624f.html in directory target\site\serenity  
+46243 [pool-2-thread-3] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Student CURD test with steps:test003 in 46c94f63cf63717d7751c2c004c4350bf0af57d92ea1e25a560ee8105fbb97b3.html in directory target\site\serenity  
+46243 [pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Student CURD test with steps:test001 in 1709c273eb40f6633acc4318bfa3c6e3d5d89499d6576169f58894f6c51b6ec7.html in directory target\site\serenity  
+]]></system-err>
+  </testcase>
+  <testcase name="verifyIfTheStatusCodeIs200" classname="com.studentapp.studentinfo.TagsTest" time="4.107">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.TagsTest.verifyIfTheStatusCodeIs200(TagsTest.java:32)
+</error>
+  </testcase>
+  <testcase name="inCorrectResource" classname="com.studentapp.studentinfo.TagsTest" time="4.122">
+    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.TagsTest.inCorrectResource(TagsTest.java:44)
+</error>
+  </testcase>
+</testsuite>

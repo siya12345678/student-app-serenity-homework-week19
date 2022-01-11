@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: com.studentapp.studentinfo.TagsTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 12.197 sec <<< FAILURE! - in com.studentapp.studentinfo.TagsTest
+invalidMethod(com.studentapp.studentinfo.TagsTest)  Time elapsed: 3.965 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.TagsTest.invalidMethod(TagsTest.java:20)
+
+verifyIfTheStatusCodeIs200(com.studentapp.studentinfo.TagsTest)  Time elapsed: 4.107 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.TagsTest.verifyIfTheStatusCodeIs200(TagsTest.java:32)
+
+inCorrectResource(com.studentapp.studentinfo.TagsTest)  Time elapsed: 4.122 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.TagsTest.inCorrectResource(TagsTest.java:44)
+

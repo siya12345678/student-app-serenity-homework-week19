@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: com.studentapp.studentinfo.FirstSerenityTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 5, Skipped: 1, Time elapsed: 24.862 sec <<< FAILURE! - in com.studentapp.studentinfo.FirstSerenityTest
+test001(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 16.637 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.FirstSerenityTest.test001(FirstSerenityTest.java:73)
+
+thisIsCompromised(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0 sec  <<< ERROR!
+java.io.FileNotFoundException: E:\file.txt (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsCompromised(FirstSerenityTest.java:64)
+
+thisIsATestWithError(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.ArithmeticException: / by zero
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsATestWithError(FirstSerenityTest.java:52)
+
+thisIsFailing(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 4.111 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.FirstSerenityTest.thisIsFailing(FirstSerenityTest.java:34)
+
+getAllStudents(com.studentapp.studentinfo.FirstSerenityTest)  Time elapsed: 4.11 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at io.restassured.internal.print.ResponsePrinter.print(ResponsePrinter.java:46)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:423)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:419)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.logResponse(ValidatableResponseOptionsImpl.java:415)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.all(ValidatableResponseOptionsImpl.java:371)
+	at com.studentapp.studentinfo.FirstSerenityTest.getAllStudents(FirstSerenityTest.java:25)
+

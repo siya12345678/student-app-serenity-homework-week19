@@ -1,0 +1,11 @@
+com\studentapp\junit\studentInfo\StudentsGetTest.class
+com\studentapp\StudentTest\StudentsGetTest.class
+com\studentapp\studentinfo\StudentCURDTestWithSteps.class
+com\studentapp\studentinfo\FirstSerenityTest.class
+com\studentapp\testbase\TestBase.class
+com\studentapp\cucumber\steps\MyStepdefs.class
+com\studentapp\studentinfo\StudentCURDTest.class
+com\studentapp\cucumber\CucumberRunner.class
+com\studentapp\studentinfo\CreateStudentDataDrivenTest.class
+com\studentapp\studentinfo\TagsTest.class
+com\studentapp\junit\studentidinfo\StudentsGetTest1.class
